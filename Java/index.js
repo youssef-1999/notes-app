@@ -19,6 +19,7 @@ function addNotes() {
     let trimmedContent = content.value.trim();
 
     if (trimmedTitle.length === 0 || trimmedContent.length === 0) {
+        alert("you have to add title and content ")
         return; // Do nothing if either title or content is empty
     }
 
